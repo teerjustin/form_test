@@ -9,9 +9,10 @@
 <body>
     <h1>Show Page</h1>
     <h3>Info Submitted:</h3>
-    <p>Name: {{ name_on_template }}</p>
-    <p>Dojo Location: {{ location_from_form }}</p>
-    <p>Favorite Language: {{ language_from_form }}</p>
-    <p>Comments: {{ comments_from_form }}</p>
+    <p>Name: {{ dojo.dojo_name }}</p>
+    <p>Dojo Location: {{ dojo.dojo_location }}</p>
+    <p>Favorite Language: {{ dojo.dojo_language }}</p>
+    <p>Comments: {{ dojo.dojo_comment }}</p>
+    <p>Dojo Id: {{ dojo.dojo_id }}</p>
 </body>
 </html>
